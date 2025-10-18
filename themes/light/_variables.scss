@@ -1,44 +1,45 @@
 @use "sass:color";
 
 // Backgrounds
-$color_background--light: #f0ede8;
-$color_border--light: #cbd6dc;
-$color_background: #f5f3ef;
-$color_border: #c4c8cc;
-$color_background--darker: #d5d3ce;
-$color_border--darker: #8a8a8a;
+$color_background--light: #fafafa;
+$color_border--light: #d8dce0;
+$color_background: #f2f2f2;
+$color_border: #c8ccd0;
+$color_background--darker: #e0e0e0;
+$color_border--darker: #9a9a9a;
 
-$color_input_background: #eeebe6;
-$color_input_background--selected: #dfe4e8;
-$color_input_background--disabled: #e6e4e0;
-$color_input_inner_shadow: rgba(0, 0, 0, 0.1);
-$color_input_text: #6b6b6b;
+// Inputs
+$color_input_background: #ebebeb;
+$color_input_background--selected: #dedede;
+$color_input_background--disabled: #e8e8e8;
+$color_input_inner_shadow: rgba(0, 0, 0, 0.08);
+$color_input_text: #5e5e5e;
 $color_input_text--highlight: #185d54;
-$color_input_text--disabled: #a9a9a9;
-$color_input_border: #bfc8cd;
-$color_input_border--disabled: #d8d8d8;
-$color_input_group_background: #eeebe6;
+$color_input_text--disabled: #ababab;
+$color_input_border: #c2c6ca;
+$color_input_border--disabled: #d5d5d5;
+$color_input_group_background: #ebebeb;
 
-$color_text: #5a5a5a;
-$color_h1: color.scale(#5a5a5a, $lightness: 20%);
-$color_h2: color.scale(#5a5a5a, $lightness: 20%);
-$color_h3: color.scale(#5a5a5a, $lightness: 20%);
-$color_h4: color.scale(#5a5a5a, $lightness: 20%);
-$color_placeholder: #cccccc;
-$color_dark_background--light: #3a3632; 
-$color_dark_border--light: #5a5650;
-$color_dark_background: #2d2a26;
-$color_dark_border: #4a4842;
-$color_dark_background--darker: #1f1d1a;
-$color_dark_border--darker: #3d3b38;
+// Texts
+$color_text: #4a4a4a;
+$color_h1: color.scale(#4a4a4a, $lightness: 15%);
+$color_h2: color.scale(#4a4a4a, $lightness: 15%);
+$color_h3: color.scale(#4a4a4a, $lightness: 15%);
+$color_h4: color.scale(#4a4a4a, $lightness: 15%);
+$color_placeholder: #c5c5c5;
+$color_dark_background--light: #3d3935;
+$color_dark_border--light: #5c5853;
+$color_dark_background: #2a2724;
+$color_dark_border: #4a4642;
+$color_dark_background--darker: #1a1815;
+$color_dark_border--darker: #36342f;
+$color_dark_text: #ececec;
+$color_dark_h1: #ffffff;
+$color_dark_h2: #f5f5f5;
+$color_dark_h3: #e8e8e8;
+$color_dark_disclaimer: #b5b3b0;
 
-$color_dark_text: #e8e6e3; 
-$color_dark_h1: #ffffff;  
-$color_dark_h2: color.scale(#e8e6e3, $lightness: 10%);
-$color_dark_h3: color.scale(#e8e6e3, $lightness: 5%);
-$color_dark_disclaimer: #b8b6b3;
-
-// Links and buttons 
+// Links and buttons
 $color_link: #c48f1d;
 $color_link--hover: #a67918;
 $color_link--active: #8f6e12;
@@ -56,7 +57,7 @@ $color_link_dimmed_red--hover: color.scale($color_link_red--hover, $lightness: 2
 $color_link_dimmed_red--active: $color_link_red--active;
 
 $color_button_text: #f5f5f5;
-$color_button_disabled_opacity: 0.8;
+$color_button_disabled_opacity: 0.75;
 
 $color_highlight: #b55600;
 $color_highlight-text: #1a1a1a;
@@ -71,7 +72,7 @@ $color_create_auction_text: #1a1a1a;
 $color_create_auction--hover: #9589d8;
 $color_create_auction--active: #877bdd;
 
-// Attribute and name selectors
+// Attributes
 $color_attribute_text: #000000;
 $color_attribute_background_first: #19a187;
 $color_attribute_background_second: color.adjust(#19a187, $saturation: -30%);
@@ -80,51 +81,51 @@ $color_attribute_background_negative: #98392d;
 
 // Alerts
 $color_success_text: #3f6a00;
-$color_success_background: #d7e5ca;
+$color_success_background: #dbe8cd;
 $color_success_border: #3f6a00;
 
 $color_warning_text: #b68600;
-$color_warning_background: #efe7ca;
+$color_warning_background: #f2ead0;
 $color_warning_border: #b68600;
 
 $color_danger_text: #993300;
-$color_danger_background: #f7d8cf;
+$color_danger_background: #fadcd3;
 $color_danger_border: #993300;
 
 $color_info_text: #117a9f;
-$color_info_background: #d7ebf5;
+$color_info_background: #daeef7;
 $color_info_border: #117a9f;
 
-// Tooltips 
-$color_tooltip_background: #d6dae1;
-$color_tooltip_border: #b4b4b4;
-$color_tooltip_text: #5a5a5a;
+// Tooltips - harmonisés avec f2f2f2
+$color_tooltip_background: #d9dde3;
+$color_tooltip_border: #b8b8b8;
+$color_tooltip_text: #4a4a4a;
 
-// Misc 
+// Misc
 $color_sell: #a32970;
 $color_buy: #117a57;
-$color_price: #616161;
+$color_price: #5a5a5a;
 
 $color_status-online: green;
 $color_status-ingame: mediumslateblue;
 $color_status-offline: darkred;
 $color_status-invis: darkgrey;
 
-$color_own--odd: #a87b9c;
-$color_own--even: #b7a5ba;
+$color_own--odd: #b08ba5;
+$color_own--even: #c0aec3;
 
-// Auctions 
+// Auctions
 $color_auction_participant: #148c61;
 $color_auction_sell: #bdbdbd;
 $color_auction_own: mediumslateblue;
 $color_auction_private: mediumslateblue;
 $color_auction_archiving: #cccccc;
 
-// Markdown 
-$color_md_code_background: #f0f4f8;
+// Markdown
+$color_md_code_background: #f5f7fa;
 $color_md_code_text: #2b6d4f;
-$color_dark_md_code_background: #e2e2e2;
+$color_dark_md_code_background: #e5e5e5;
 $color_dark_md_code_text: #2b6d4f;
 
-// Modal window - adouci
-$color_modal_backdrop: 245, 243, 239; 
+// Modal window
+$color_modal_backdrop: 242, 242, 242; 
