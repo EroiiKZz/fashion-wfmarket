@@ -3,14 +3,11 @@ $color_background--light: #0f0e0a;
 $color_border--light: #203137;
 $color_background: #090805;
 $color_border: #2d3437;
-// Adouci et harmonisé : bleu-nuit très foncé pour le darker
 $color_background--darker: #070604;
 $color_border--darker: black;
-
 $color_input_background: #121212;
 $color_input_background--selected: #121212;
 $color_input_background--disabled: #1d1d1d;
-// Ombrage plus visible avec transparence
 $color_input_inner_shadow: rgba(0, 0, 0, 0.3);
 $color_input_text: #abaeaf;
 $color_input_text--highlight: #19a187;
@@ -27,7 +24,7 @@ $color_h4: color.scale(#919596, $lightness: 20%);
 $color_placeholder: #333; // #333333;
 
 $color_dark_background--light: #11262b;
-$color_dark_border--light: #2c3e50; // corrigé + plus doux
+$color_dark_border--light: #2c3e50;
 $color_dark_background: $color_background; // #090805
 $color_dark_border: #283235;
 $color_dark_background--darker: $color_background--darker; // #050a0c
