@@ -4,7 +4,7 @@ Enhanced fork of [42bytes-team/wfm-themes](https://github.com/42bytes-team/wfm-t
 
 ## Features
 
-- 🎨 **4 Built-in Themes**: Dark Base, Light Base (Both Original WFMarker Themes) and Dark (Golden), Light (Golden)
+- 🎨 **4 Built-in Themes**: Dark Base, Light Base (Both Original WarframeMarket Themes) and Dark (Golden), Light (Golden)
 - **[⚠️ Please read step 4 ⚠️](#step-4-update-the-theme-class)**
 - 🔄 **Live Reload**: Automatic browser injection via Stylus
 - ⚡ **Fast Build**: Concurrent Sass compilation with watch mode
