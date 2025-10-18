@@ -1,6 +1,6 @@
 @import 'variables';
 @import '../../common';
 
-.theme--dark {
+.theme--dark--base {
   @include makeTheme();
 }
