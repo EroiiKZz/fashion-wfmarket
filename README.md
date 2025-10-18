@@ -4,7 +4,8 @@ Enhanced fork of [42bytes-team/wfm-themes](https://github.com/42bytes-team/wfm-t
 
 ## Features
 
-- 🎨 **4 Built-in Themes**: Dark Base, Light Base (Both Original WFMarker Themes) and Dark (Golden), Light (Golden) **Please read step 4**
+- 🎨 **4 Built-in Themes**: Dark Base, Light Base (Both Original WFMarker Themes) and Dark (Golden), Light (Golden)
+- **[⚠️ Please read step 4 ⚠️](#step-4-update-the-theme-class)**
 - 🔄 **Live Reload**: Automatic browser injection via Stylus
 - ⚡ **Fast Build**: Concurrent Sass compilation with watch mode
 - 🛠️ **Modern Sass**: Latest module system (no deprecated functions)
@@ -191,9 +192,8 @@ Your theme will be automatically detected, compiled to `compiled/my-custom-theme
 ### Step 6: Select Your Theme on Warframe Market
 
 1. Go to [warframe.market](https://warframe.market)
-2. Click on your profile → Settings
-3. Choose "Dark" or "Light" theme (depending on which class you used in Step 4)
-4. Your custom theme will be applied!
+2. Navigate to the footer and choose "Dark" or "Light" theme (depending on which class you used in Step 4)
+3. Your custom theme will be applied!
 
 ## Advanced: Using Custom Theme Classes
 
