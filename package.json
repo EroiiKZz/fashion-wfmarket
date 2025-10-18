@@ -1,0 +1,39 @@
+{
+  "name": "wfm-themes",
+  "version": "1.0.0",
+  "description": "Allows for building themes & creating user style for stylus",
+  "main": "build-themes.js",
+  "scripts": {
+    "test": "echo \"No tests available\"",
+    "build": "node build-themes.js",
+    "watch": "node build-themes.js --watch",
+    "stylus": "node utils/inject-theme-stylus.js",
+    "dev": "concurrently \"npm run watch\" \"npm run stylus\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EroiiKZz/wfm-themes.git"
+  },
+  "keywords": [
+    "warframe-market",
+    "sass",
+    "stylus",
+    "warframe",
+    "themes",
+    "css",
+    "compiler",
+    "build-tool"
+  ],
+  "author": "EroiiKzz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EroiiKZz/wfm-themes/issues"
+  },
+  "homepage": "https://github.com/EroiiKZz/wfm-themes#readme",
+  "dependencies": {
+    "sass": "^1.77.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

@@ -1,14 +1,17 @@
-$color_background--light: #171e21;
+@use "sass:color";
+$color_background--light: #0f0e0a;
 $color_border--light: #203137;
-$color_background: #101619;
+$color_background: #090805;
 $color_border: #2d3437;
-$color_background--darker: #071013;
+// Adouci et harmonisé : bleu-nuit très foncé pour le darker
+$color_background--darker: #070604;
 $color_border--darker: black;
 
 $color_input_background: #121212;
 $color_input_background--selected: #121212;
 $color_input_background--disabled: #1d1d1d;
-$color_input_inner_shadow: black;
+// Ombrage plus visible avec transparence
+$color_input_inner_shadow: rgba(0, 0, 0, 0.3);
 $color_input_text: #abaeaf;
 $color_input_text--highlight: #19a187;
 $color_input_text--disabled: #565656;
@@ -17,56 +20,53 @@ $color_input_border--disabled: #2f2f2f;
 $color_input_group_background: #121212;
 
 $color_text: #919596; // #8a9193;
-$color_h1: lighten(#919596, 20%);
-$color_h2: lighten(#919596, 20%);
-$color_h3: lighten(#919596, 20%);
-$color_h4: lighten(#919596, 20%);
+$color_h1: color.scale(#919596, $lightness: 20%);
+$color_h2: color.scale(#919596, $lightness: 20%);
+$color_h3: color.scale(#919596, $lightness: 20%);
+$color_h4: color.scale(#919596, $lightness: 20%);
 $color_placeholder: #333; // #333333;
 
 $color_dark_background--light: #11262b;
-$color_dark_border--light: #283235;
-$color_dark_background: #171e21;
+$color_dark_border--light: #2c3e50; // corrigé + plus doux
+$color_dark_background: $color_background; // #090805
 $color_dark_border: #283235;
-$color_dark_background--darker: #071013;
-$color_dark_border--darker: #171e21; // #283235;
+$color_dark_background--darker: $color_background--darker; // #050a0c
+$color_dark_border--darker: #171e21; // #283235
 
 $color_dark_text: #aab3b6;
-$color_dark_h1: lighten($color_dark_text, 30%);
-$color_dark_h2: lighten($color_dark_text, 20%);
-$color_dark_h3: lighten($color_dark_text, 10%);
+$color_dark_h1: color.scale($color_dark_text, $lightness: 30%);
+$color_dark_h2: color.scale($color_dark_text, $lightness: 20%);
+$color_dark_h3: color.scale($color_dark_text, $lightness: 10%);
 $color_dark_disclaimer: #333d40;
 
 // Links and buttons
-$color_link: #3c879c;
-$color_link--hover: #5ff5ff;
-$color_link--active: #1bb194;
+$color_link: #e9b823;
+$color_link--hover: #c7991b;
+$color_link--active: #b38612;
 
 $color_link_red: #a52f31;
 $color_link_red--hover: #ff6969;
 $color_link_red--active: #c83383;
 
-$color_link_dimmed: #408698; //#7aa7a5;
+$color_link_dimmed: #7aa7a5;
 $color_link_dimmed--hover: #a3dddb;
 $color_link_dimmed--active: #acb8dd;
 
-$color_link_dimmed_red: lighten($color_link_red, 20%);
-$color_link_dimmed_red--hover: lighten($color_link_red--hover, 20%);
+$color_link_dimmed_red: color.scale($color_link_red, $lightness: 20%);
+$color_link_dimmed_red--hover: color.scale($color_link_red--hover, $lightness: 20%);
 $color_link_dimmed_red--active: $color_link_red--active;
 
 $color_button_text: #161e21;
 $color_button_disabled_opacity: 0.35;
 
-// Place order button and counters (new messages)
 $color_highlight: #b53600;
 $color_highlight-text: #f5f5f5;
 
-// Place order button
 $color_place_order: #b53600;
 $color_place_order_text: #f5f5f5;
 $color_place_order--hover: #e64400;
 $color_place_order--active: #ff8f00;
 
-// Create auction button.
 $color_create_auction: #8960db;
 $color_create_auction_text: #f5f5f5;
 $color_create_auction--hover: #b08cff;
@@ -75,8 +75,8 @@ $color_create_auction--active: #9d92ff;
 // Attribute and name selectors
 $color_attribute_text: white;
 $color_attribute_background_first: #19a187;
-$color_attribute_background_second: desaturate(#19a187, 30%);
-$color_attribute_background_third: desaturate(#19a187, 60%);
+$color_attribute_background_second: color.adjust(#19a187, $saturation: -30%);
+$color_attribute_background_third: color.adjust(#19a187, $saturation: -60%);
 $color_attribute_background_negative: #98392d;
 
 // Alerts
