@@ -1,6 +1,6 @@
 # Fashion WFMarket 🎨
 
-*Custom theme generator for Warframe Market - Make your trading hub as stylish as your fashion frame*
+*Custom theme generator for [Warframe Market](https://warframe.market) - Make your trading hub as stylish as your fashion frame*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node Version](https://img.shields.io/badge/node-%3E%3D14-brightgreen)](https://nodejs.org/)
