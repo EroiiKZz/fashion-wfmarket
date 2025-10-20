@@ -9,6 +9,25 @@ Enhanced & repurposed fork of [42bytes-team/wfm-themes](https://github.com/42byt
 
 ---
 
+## 📑 Table of Contents
+
+- [✨ Features](#-features)
+- [🖼️ Examples](#️-examples)
+- [📋 Requirements](#-requirements)
+- [🚀 Installation](#-installation)
+- [🎮 Quick Start](#-quick-start-3-steps)
+- [🛠️ Create Your Own Theme](#️-create-your-own-theme)
+- [📜 Available Commands](#-available-commands)
+- [📁 Project Structure](#-project-structure)
+- [❓ FAQ](#-faq)
+- [🔍 Troubleshooting](#-troubleshooting)
+- [🔧 Advanced Dev Mode](#-advanced-dev-mode)
+- [🎯 How Theme Selection Works](#-how-theme-selection-works)
+- [📄 License](#-license)
+- [🙏 Credits](#-credits)
+
+---
+
 ## ✨ Features
 
 - 🎨 **Theme Generator**: Create new themes in one command, no forma required
@@ -135,7 +154,7 @@ npm run select   # Choose your new themes
 ## 📁 Project Structure
 
 ```
-wfm-themes/
+fashion-wfmarket/
 ├── themes/                    # Your SCSS themes
 │   ├── light-original/       # Official Warframe Market light theme
 │   ├── dark-original/        # Official Warframe Market dark theme
@@ -174,6 +193,28 @@ npm run reset
 ```
 
 Or delete `utils/.theme-selection.json` and run `npm run select` again.
+
+### Can I change images, border-radius, padding, or layout?
+
+**Unfortunately, no.** These themes only modify **colors and backgrounds** through CSS variable overrides. Since we don't have access to Warframe Market's source code, we can't change:
+
+- ❌ Images and icons (hardcoded in their HTML)
+- ❌ Border radius (not exposed as CSS variables)
+- ❌ Padding and spacing (not exposed as CSS variables)
+- ❌ Layout structure (requires HTML changes)
+- ❌ Font families (not exposed as CSS variables)
+
+**What you CAN customize:**
+- ✅ All colors (backgrounds, text, links, buttons, borders)
+- ✅ Alert/notification colors (success, warning, danger)
+- ✅ Hover states and transitions
+- ✅ Transparency/opacity values
+
+This is a limitation of how Warframe Market implements their theming system, not of this tool. The site uses CSS variables for colors only, which is what these themes override.
+
+### Can I share my custom themes?
+
+Absolutely! Just share your theme folder from `themes/your-theme-name/` or the compiled CSS from `compiled/`. Others can drop it in their `themes/` folder and use `npm run select` to activate it.
 
 ---
 
