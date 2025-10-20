@@ -41,7 +41,7 @@ Enhanced fork of [42bytes-team/wfm-themes](https://github.com/42bytes-team/wfm-t
 ## 🚀 Installation
 
 ```
-git clone https://github.com/EroiiKZz/wfm-themes.git
+git clone https://github.com/EroiiKZz/fashion-wfmarker.git
 cd wfm-themes
 npm install
 ```
