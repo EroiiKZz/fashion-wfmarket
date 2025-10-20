@@ -1,1 +1,23 @@
-secret.css
+# ================================
+# Dependencies
+# ================================
+node_modules/
+package-lock.json
+
+# ================================
+# Build outputs
+# ================================
+compiled/
+*.css.map
+
+# ================================
+# Generated files 
+# ================================
+utils/user-style.styl
+utils/.theme-selection.json
+
+# ================================
+# IDE & Editor settings
+# ================================
+.vscode/
+.prettierrc

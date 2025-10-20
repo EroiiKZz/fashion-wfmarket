@@ -1,0 +1,186 @@
+@use "sass:color";
+
+// ============================================
+// Dark Theme - Warm Muted Palette
+// Base: #090405 with rose and olive accents
+// ============================================
+
+// Background layers
+$color_background--light: #1a0e10;
+$color_border--light: #3d2329;
+$color_background: #090405;
+$color_border: #2a1519;
+$color_background--darker: #000000;
+$color_border--darker: #0f0608;
+
+// Input components
+$color_input_background: #120809;
+$color_input_background--selected: #1d0f12;
+$color_input_background--disabled: #281519;
+$color_input_inner_shadow: rgba(0, 0, 0, 0.4);
+$color_input_text: #f7edee;
+$color_input_text--highlight: #9eb053;
+$color_input_text--disabled: #6b4d52;
+$color_input_border: #2a1519;
+$color_input_border--disabled: #3d2329;
+$color_input_group_background: #120809;
+
+// Typography
+$color_text: #f7edee;
+$color_h1: #ffffff;
+$color_h2: #faf5f6;
+$color_h3: #f7edee;
+$color_h4: #d9c9cb;
+$color_placeholder: #6b4d52;
+
+// Dark variant backgrounds
+$color_dark_background--light: #1a0e10;
+$color_dark_border--light: #3d2329;
+$color_dark_background: $color_background;
+$color_dark_border: #2a1519;
+$color_dark_background--darker: $color_background--darker;
+$color_dark_border--darker: #0f0608;
+
+// Dark variant typography
+$color_dark_text: #f7edee;
+$color_dark_h1: #ffffff;
+$color_dark_h2: #faf5f6;
+$color_dark_h3: #f0e3e5;
+$color_dark_disclaimer: #6b4d52;
+
+// ============================================
+// Links and Interactive Elements
+// ============================================
+
+// Primary links (rose primary)
+$color_link: #d29da8;
+$color_link--hover: #e0b4be;
+$color_link--active: #c98694;
+
+// Red links (deeper rose)
+$color_link_red: #b37381;
+$color_link_red--hover: #d29da8;
+$color_link_red--active: #a05d6b;
+
+// Dimmed links (olive accent)
+$color_link_dimmed: #9eb053;
+$color_link_dimmed--hover: #b5ca6e;
+$color_link_dimmed--active: #8a9c47;
+
+// Dimmed red links
+$color_link_dimmed_red: #c09099;
+$color_link_dimmed_red--hover: #d5a8b1;
+$color_link_dimmed_red--active: #a67883;
+
+// Button styling
+$color_button_text: #120809;
+$color_button_disabled_opacity: 0.4;
+
+// Highlight
+$color_highlight: #622d38;
+$color_highlight-text: #f7edee;
+
+// ============================================
+// Action Buttons
+// ============================================
+
+// Place Order (primary color)
+$color_place_order: #622d38;
+$color_place_order_text: #f7edee;
+$color_place_order--hover: #7a3a48;
+$color_place_order--active: #8d4655;
+
+// Create Auction (olive accent)
+$color_create_auction: #9eb053;
+$color_create_auction_text: #120809;
+$color_create_auction--hover: #b5ca6e;
+$color_create_auction--active: #c8dc88;
+
+// ============================================
+// Attribute Tags
+// ============================================
+
+$color_attribute_text: #f7edee;
+$color_attribute_background_first: #9eb053;
+$color_attribute_background_second: #8a9c47;
+$color_attribute_background_third: #756e36;
+$color_attribute_background_negative: #622d38;
+
+// ============================================
+// Alert States
+// ============================================
+
+// Success (olive green)
+$color_success_text: #b5ca6e;
+$color_success_background: #1a1d0f;
+$color_success_border: #9eb053;
+
+// Warning (golden yellow)
+$color_warning_text: #e6d98a;
+$color_warning_background: #1f1d0e;
+$color_warning_border: #c8c188;
+
+// Danger (rose red)
+$color_danger_text: #d29da8;
+$color_danger_background: #1a0e10;
+$color_danger_border: #b37381;
+
+// Info (muted blue-grey)
+$color_info_text: #a8b5c7;
+$color_info_background: #0e1319;
+$color_info_border: #7a8a9e;
+
+// ============================================
+// Tooltips & Overlays
+// ============================================
+
+$color_tooltip_background: #1a0e10;
+$color_tooltip_border: #2a1519;
+$color_tooltip_text: #f7edee;
+
+// ============================================
+// Trading Colors
+// ============================================
+
+$color_sell: #d29da8;
+$color_buy: #9eb053;
+$color_price: #e8d9db;
+
+// Status indicators
+$color_status-online: #9eb053;
+$color_status-ingame: #c8c188;
+$color_status-offline: #622d38;
+$color_status-invis: #6b4d52;
+
+// ============================================
+// User-specific Highlights
+// ============================================
+
+// Own orders
+$color_own--odd: #2a1519;
+$color_own--even: #1d0f12;
+
+// ============================================
+// Auctions
+// ============================================
+
+$color_auction_participant: #9eb053;
+$color_auction_sell: #a89499;
+$color_auction_own: #d29da8;
+$color_auction_private: #c8c188;
+$color_auction_archiving: #6b4d52;
+
+// ============================================
+// Markdown Code Blocks
+// ============================================
+
+$color_md_code_background: #0f0608;
+$color_md_code_text: #9eb053;
+$color_dark_md_code_background: #000000;
+$color_dark_md_code_text: #b5ca6e;
+
+// ============================================
+// Modal Backdrop
+// ============================================
+
+$color_modal_backdrop: 9, 4, 5; // RGB de #090405
