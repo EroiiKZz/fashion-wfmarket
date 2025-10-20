@@ -1,7 +1,7 @@
 {
-  "name": "wfm-themes",
+  "name": "fashion-wfmarket",
   "version": "1.0.0",
-  "description": "Allows for building themes & creating user style for stylus",
+  "description": "Custom theme generator for Warframe Market with automated tools, for stylus or any other CSS injector.",
   "main": "utils/build-themes.js",
   "scripts": {
     "test": "echo \"No tests available\"",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EroiiKZz/wfm-themes.git"
+    "url": "git+https://github.com/EroiiKZz/fashion-wfmarket.git"
   },
   "keywords": [
     "warframe-market",
@@ -29,9 +29,9 @@
   "author": "EroiiKZz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EroiiKZz/wfm-themes/issues"
+    "url": "https://github.com/EroiiKZz/fashion-wfmarket/issues"
   },
-  "homepage": "https://github.com/EroiiKZz/wfm-themes#readme",
+  "homepage": "https://github.com/EroiiKZz/fashion-wfmarket#readme",
   "dependencies": {
     "sass": "^1.77.0"
   },

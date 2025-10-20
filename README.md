@@ -1,11 +1,11 @@
-# Warframe Market - Custom Themes 🎨
+# Fashion WFMarket 🎨
+
+*Custom theme generator for Warframe Market - Make your trading hub as stylish as your fashion frame*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node Version](https://img.shields.io/badge/node-%3E%3D14-brightgreen)](https://nodejs.org/)
 
-A custom theme generator for Warframe Market with automated tools and an intuitive interface. Make your trading hub look as sharp as your fashion frame.
-
-Enhanced fork of [42bytes-team/wfm-themes](https://github.com/42bytes-team/wfm-themes)
+Enhanced & repurposed fork of [42bytes-team/wfm-themes](https://github.com/42bytes-team/wfm-themes)
 
 ---
 
@@ -41,8 +41,8 @@ Enhanced fork of [42bytes-team/wfm-themes](https://github.com/42bytes-team/wfm-t
 ## 🚀 Installation
 
 ```
-git clone https://github.com/EroiiKZz/fashion-wfmarker.git
-cd wfm-themes
+git clone https://github.com/EroiiKZz/fashion-wfmarket.git
+cd fashion-wfmarket
 npm install
 ```
 
